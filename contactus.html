@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <title>Knot & Knead Artisan Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    
+    <div class="firstSectionContact container-fluid">
+       <div class="header">
+         <a href="index.html" target= "_blank" active" id="logo">Knot & Knead</a>
+         <div class="header-right">
+           <a href="products.html" target="_blank">Shop</a>
+           <a href="#about">About</a>
+           <a href="contactus.html" target="_blank">Contact</a>
+         </div>
+       </div>
+          
+   
+          <h1 class="h1Contact">Get In Touch</h1>          
+         </div>
+       
+      <div class="container-fluid contactusform">
+         <form onsubmit="sendEmail(); reset(); return false;">
+           <h3>Drop us a line with your query and we'll get back to you</h3>
+           <input type="text" id="name" placeholder="Your Name" required />
+           <input type="email" id="email" placeholder="Email Address" required />
+           <input type="text" id="phone" placeholder="Phone Number" required />
+           <textarea
+             id="message"
+             rows="4"
+             placeholder="Let us know how we can help you"
+           ></textarea>
+           <button type="submit">Submit Message</button>
+         </form>
+       </div>
+   
+   </div>
+     
+     <div id="footer" class="container-fluid">
+       <div class="container-fluid">
+         <div class="row" id="footerTitles">
+           <div class="col-8">Knot & Knead Artisan Bakery</div>
+           <div class="col-4">Let's be Friends!</div>
+         </div>
+         <div class="row">
+           <div class="col-8">52 Eastern Crescent<br>Jesmond<br>Newcastle Upon Tyne<br>NE7 2TJ</div>
+           <div class="col-4">@knotandkneadbakery</div>
+         </div>
+       </div>
+     </div>
+   
+   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+       crossorigin="anonymous"></script>
+   
+     <script src="script.js"></script>
+     
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+   
+   </body>
+   </html>
+   

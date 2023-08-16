@@ -1,0 +1,427 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffdfb3;
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+.header a {
+  float: left;
+  color: #a78d52;
+  text-align: center;
+  padding: 12px 30px 12px 30px;
+  font-family: "EB Garamond", serif;
+  font-size: 23px;
+  text-decoration: bold;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #f58d60;
+}
+
+.header a:hover {
+  color: #f58d60;
+}
+
+.header a.active {
+  color: #f58d60;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 140px;
+  color: #fbdeb5;
+  line-height: 115px;
+  font-weight: bold;
+  padding: 60px 20px 10px 20px;
+}
+
+#h1contact {
+  width: 100%;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 70px;
+  color: #fbdeb5;
+  line-height: 95px;
+  padding: 60px 20px 10px 20px;
+}
+
+.button1 {
+  align-content: center;
+  border-radius: 25px;
+  background: #a08346;
+  border-color: #a08346;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #f5dec2;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  position: center;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: #f38c5f;
+}
+
+.firstSection {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  background-color: #e6cda1;
+  background-image: url("images/bagelslandscape.jpg");
+  background-size: cover;
+  height: 600px;
+  align-content: center;
+}
+
+.firstSectionProducts {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  background-color: #a98c53;
+  height: 1300px;
+  align-content: center;
+}
+
+.firstSectionContact {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  color: #f38c5f;
+  background-color: #f58d60;
+  background-size: cover;
+  height: 600px;
+  align-content: center;
+}
+
+.para1 {
+  color: #fbdeb5;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.news-scroll a {
+  width: 100%;
+  font-family: "EB Garamond", serif;
+  background-color: #f38c5f;
+  font-weight: bold;
+  color: #f5dec2;
+  font-size: 25px;
+  padding: 20px 20px 20px 20px;
+  font-style: italic;
+}
+
+#scrollText {
+  color: #7d3c08;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px;
+  background-color: rgb(253, 252, 252);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.image2 {
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondSection {
+  display: flex;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  color: #f5dec2;
+  font-size: 25px;
+  line-height: 32px;
+  width: 100%;
+  padding: 90px 80px 90px 80px;
+  background-image: url("images/bakerylandscapecropped.jpg");
+  background-size: cover;
+  align-content: center;
+  align-items: center;
+}
+
+.headings {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.thirdsection {
+  display: flex;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+  color: #eedcb5;
+  background-color: #a98c53;
+  padding: 40px 60px 40px 60px;
+  width: auto-flow;
+  background-size: contain;
+  height: 600px;
+}
+
+#image3 {
+  display: flex;
+  border-radius: 25px;
+}
+
+#ourStory {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.rhcol {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#button2 {
+  align-content: center;
+  border-radius: 25px;
+  background: #927535;
+  border-color: #927535;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #f5dec2;
+  font-weight: bold;
+
+  transition: 0.3s;
+
+  position: center;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+}
+
+#button2:hover {
+  background-color: #f38c5f;
+}
+
+#footer {
+  display: flex;
+  align-content: center;
+  background-color: #f5dec2;
+  height: 130px;
+  width: 100%;
+  text-align: start;
+  font-family: "EB Garamond", serif;
+  color: #9d6639;
+  padding: 30px 10px 10px 10px;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+#productsfooter {
+  display: flex;
+  align-content: center;
+  background-color: #f5dec2;
+  height: 130px;
+  width: 100%;
+  text-align: start;
+  font-family: "EB Garamond", serif;
+
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 10px;
+}
+
+#footerTitles {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.productTitle {
+  width: 100%;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 140px;
+  color: #fbdeb5;
+  font-weight: bold;
+  padding: 30px 20px 40px 20px;
+}
+
+.container2 {
+  width: 100%;
+  background-color: #a98c53;
+  padding: 20px 20px 10px 20px;
+}
+
+.container3 {
+  width: 100%;
+  background-color: #a98c53;
+  padding: 20px 20px 40px 20px;
+}
+
+.card-img-top {
+  border-radius: 25px;
+}
+
+.card {
+  background-color: #f5dec2;
+  padding: 10px;
+  border-radius: 25px;
+  color: #9d6639;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 25px;
+  background: #f38c5f;
+  border-color: #f38c5f;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #f5dec2;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f38c5f;
+}
+
+.col-8 {
+  padding-left: 110px;
+}
+
+.h1contact {
+  width: 100%;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 75px;
+  color: #fbdeb5;
+  font-weight: bold;
+  padding: 30px 20px 60px 20px;
+}
+
+/*copied in from week 5 notes, need to customise to fit this html */
+
+/*small sized screen */
+@media only screen and (min-width: 390px) {
+}
+
+/*medium sized screen */
+@media only screen and (min-width: 768px) {
+  .flex-item {
+    width: 50%;
+  }
+}
+
+/*large sized screen */
+@media only screen and (min-width: 992px) {
+  .flex-item {
+    width: calc (100%/3);
+  }
+}
+
+/* very large sized screen */
+@media only screen and (min-width: 1200px) {
+  .flex-item {
+    width: 25%;
+  }
+}
+
+.contactusform {
+  width: 100%;
+  height: 100vh;
+  background: #f38c5f;
+  font-family: "EB Garamond", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #f38c5f;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #9d6639;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #fbdeb5;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: #927535;
+  color: #fbdeb5;
+  font-size: 25px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 200px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
